@@ -30,4 +30,7 @@ jobs:
           git config --global user.email "actions@github.com"
 
       - name: Deploy docs
-        run: uv run mkdocs gh-deploy --force
+  # --project backend 옵션을 추가합니다.
+  # 해석: "현재 위치(Root)에서 실행하되, 파이썬 환경 설정은 backend 폴더를 참고해라"
+        run: uv run --project backend mkdocs gh-deploy --force
+
