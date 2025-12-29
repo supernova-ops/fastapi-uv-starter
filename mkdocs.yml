@@ -1,6 +1,6 @@
 site_name: FastAPI Starter Docs
-site_url: https://example.com/
-site_author: My Name
+site_url: https://supernova-ops.github.io/fastapi-uv-starter/
+site_author: supernova-ops
 repo_name: fastapi-uv-starter
 # repo_url: https://github.com/username/fastapi-uv-starter
 
@@ -34,7 +34,7 @@ nav:
       - 시작하기: guides/getting-started.md
       - 설치방법: guides/installation.md
   - 기술노트:
-      - Python: tech/python.md
+      - Python: tech/python.mdhttps://github.com/login/device?skip_account_picker=true
       - API명세: tech/api.md
   - 정보: about.md
 
