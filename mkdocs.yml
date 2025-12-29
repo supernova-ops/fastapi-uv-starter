@@ -31,8 +31,10 @@ theme:
 nav:
   - Home: index.md
   - Getting started:
-      - 시작하기: guides/getting-started.md
-      - 설치방법: guides/installation.md
+      - Installation: guides/getting-started.md
+      - UV project: guides/installation.md
+      - Docker: guides/installation.md
+      - GCP: guides/installation.md
   - 기술노트:
       - Python: tech/python.mdhttps://github.com/login/device?skip_account_picker=true
       - API명세: tech/api.md
