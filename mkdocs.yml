@@ -33,9 +33,9 @@ nav:
   - Getting started:
       - Installation: guides/getting-started.md
       - UV project: guides/installation.md
-      - Docker: guides/installation.md
-      - GCP: guides/installation.md
-      - CICD: guides/installation.md내ㅣㅐ
+      - Docker: guides/docker.md
+      - GCP: guides/gcp.md
+      - CICD: guides/cicd.md
   - 기술노트:
       - Python: tech/python.mdhttps://github.com/login/device?skip_account_picker=true
       - API명세: tech/api.md
