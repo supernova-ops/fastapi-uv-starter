@@ -1,0 +1,51 @@
+site_name: FastAPI Starter Docs
+site_url: https://example.com/
+site_author: My Name
+repo_name: fastapi-uv-starter
+# repo_url: https://github.com/username/fastapi-uv-starter
+
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 다크 모드
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 라이트 모드
+
+nav:
+  - 홈: index.md
+  - 가이드:
+      - 시작하기: guides/getting-started.md
+      - 설치방법: guides/installation.md
+  - 기술노트:
+      - Python: tech/python.md
+      - API명세: tech/api.md
+  - 정보: about.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+
+plugins:
+  - search

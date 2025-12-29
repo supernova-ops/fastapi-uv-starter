@@ -1,0 +1,12 @@
+[project]
+name = "fastapi-uv-starter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.127.1",
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.7.1",
+    "uvicorn>=0.40.0",
+]
