@@ -36,7 +36,7 @@ nav:
       - Docker: guides/docker.md
       - GCP: guides/gcp.md
       - CICD: guides/cicd.md
-  - 기술노트:
+  - CookBook:
       - Docker: tech/docker-install.md
       - Python: tech/python.md
       - API명세: tech/api.md
