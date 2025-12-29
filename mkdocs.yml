@@ -37,8 +37,8 @@ nav:
       - GCP: guides/gcp.md
       - CICD: guides/cicd.md
   - 기술노트:
-      - Docker: tech/docker.md
-      - Python: tech/python.mdhttps://github.com/login/device?skip_account_picker=true
+      - Docker: tech/docker-install.md
+      - Python: tech/python.md
       - API명세: tech/api.md
   - 정보: about.md
 
