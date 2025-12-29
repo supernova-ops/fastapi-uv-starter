@@ -32,7 +32,7 @@ nav:
   - Home: index.md
   - Getting started:
       - Installation: guides/getting-started.md
-      - UV project: guides/installation.md
+      - UV_project: guides/installation.md
       - Docker: guides/docker.md
       - GCP: guides/gcp.md
       - CICD: guides/cicd.md
