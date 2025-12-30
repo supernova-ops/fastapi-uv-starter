@@ -31,7 +31,9 @@ sudo apt-get update
 
 ## 2. Docker Engine 설치
 Docker Engine, CLI, Containerd 및 플러그인(Compose 포함)을 설치합니다.
+```bash
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
 
 ## 3. 권한 설정 (sudo 없이 사용하기)
 기본적으로 Docker 명령어는 root 권한이 필요하여 매번 sudo를 입력해야 합니다. 현재 사용자를 docker 그룹에 추가하여 이를 해결합니다.
