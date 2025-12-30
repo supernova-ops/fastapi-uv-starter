@@ -38,6 +38,7 @@ nav:
       - CICD: guides/cicd.md
   - CookBook:
       - Docker: tech/docker-install.md
+      - UV : tech/uv-install.md
       - Python: tech/python.md
       - API명세: tech/api.md
   - 정보: about.md
