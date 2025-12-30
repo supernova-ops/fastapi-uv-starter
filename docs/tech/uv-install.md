@@ -129,11 +129,15 @@ uv init --python 3.11
 
 **폴더 이름(프로젝트명)**과 --python 옵션을 한 줄에 같이 적어주시면 됩니다.
 명령어 구조는 다음과 같습니다.
+```bash
 uv init [폴더명] --python [버전]
+```
 
 구체적인 실행 예시
 만약 my-server라는 폴더를 만들면서, 파이썬 버전을 3.11로 고정하고 싶다면 아래와 같이 입력합니다.
+```bash
 uv init my-server --python 3.11
+```
 
 이 명령어가 수행하는 일 (순서대로)
  * 현재 위치에 my-server라는 새 폴더를 만듭니다.
@@ -141,8 +145,11 @@ uv init my-server --python 3.11
  * 핵심: 해당 폴더 안에 .python-version이라는 파일을 만들고, 그 안에 3.11이라고 적어둡니다.
 확인해보기
 제대로 되었는지 확인하려면 생성된 폴더로 들어가서 버전을 찍어보면 됩니다.
+
+```bash
 cd my-server
 uv run python --version
 # 출력 결과: Python 3.11.x (uv가 자동으로 3.11 버전을 관리해 줍니다)
+```
 
 참고: uv는 컴퓨터에 해당 버전의 파이썬이 없으면, uv run이나 uv sync를 처음 실행할 때 알아서 다운로드(Managed Python) 받아 사용합니다. 따로 파이썬을 설치할 필요가 없습니다.
